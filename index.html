@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Mode - Unleash Your Productivity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">Focus Mode</a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><button class="theme-toggle" onclick="toggleTheme()">🌓 Toggle Theme</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Unleash Your Productivity</h1>
+        <p>Focus Mode eliminates distractions and helps you achieve deep work like never before. Transform your workflow with intelligent focus management.</p>
+        <button class="cta-button" onclick="showMessage()">Get Started Today</button>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="features-container">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Smart Distraction Blocking</h3>
+                    <p>Automatically blocks distracting websites and applications during your focus sessions, helping you stay on track with your important tasks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3>Intelligent Time Management</h3>
+                    <p>AI-powered scheduling that learns your productivity patterns and suggests optimal focus periods based on your energy levels and habits.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Detailed Analytics</h3>
+                    <p>Comprehensive insights into your focus patterns, productivity metrics, and progress tracking to help you continuously improve your workflow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div>
+                <h2>About Focus Mode</h2>
+                <p>Focus Mode was born from the understanding that in our hyperconnected world, deep work has become increasingly rare yet more valuable than ever.</p>
+                <p>Our mission is to help individuals and teams reclaim their ability to focus deeply, think creatively, and produce their best work without the constant interruptions of modern digital life.</p>
+                <p>Built with cutting-edge technology and backed by productivity research, Focus Mode adapts to your unique work style and helps you build sustainable focus habits.</p>
+            </div>
+            <div class="about-visual">
+                🧠✨
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="current-year"></span> Focus Mode. All rights reserved.</p>
+    </footer>
+
+    <!-- Custom Message Box -->
+    <div id="messageOverlay" class="message-overlay">
+        <div class="message-box">
+            <h3>Welcome to Focus Mode!</h3>
+            <p>Thank you for your interest! Focus Mode is coming soon with revolutionary productivity features.</p>
+            <button class="message-close" onclick="hideMessage()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
